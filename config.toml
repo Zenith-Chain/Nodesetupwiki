@@ -6,7 +6,6 @@ LightPeers = 100
 UltraLightFraction = 75
 TrieTimeout = 100000000000
 EnablePreimageRecording = false
-EVMInterpreter = ""
 
 [Eth.Miner]
 Noverify = false

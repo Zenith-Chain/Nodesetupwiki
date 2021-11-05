@@ -22,10 +22,27 @@ Here's the instruction to setup a full node of Zenith Chain.
 - 8 cores of CPU and 32 gigabytes of memory (RAM).
 - A broadband Internet connection with upload/download speeds of 30 megabyte per second
 
-### Configuration
+` **** Note: That we are only accepting selective nodes to become a validator. `
+
+### Setup
+There are mainly 5 steps for spinning up a full node of zenith chain
+- Install Geth
+- Download latest chain snapshot to quickly sync the chain
+- Download config.toml and genesis.json file
+- Initialize the node and setup daemon
+- Start node
+##### Install Geth
+
+##### Download latest chain snapshot to quickly sync the chain
 Please download the chain data [`snapshot`](https://snapshot.zenithchain.co) and extract to your home folder to speed up syncing process.
 ```bash
 cd ~
 mkdir zenith
 unzip snapshot.zip -d ~/zenith
 ```
+##### Download config.toml and genesis.json file
+
+##### Initialize the node and setup daemon
+
+##### Start node
+

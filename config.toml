@@ -26,7 +26,6 @@ Lifetime = 10800000000000
 [Eth.GPO]
 Blocks = 20
 Percentile = 60
-OracleThreshold = 20
 
 [Node]
 IPCPath = "geth.ipc"

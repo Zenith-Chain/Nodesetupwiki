@@ -41,7 +41,10 @@ mkdir zenith
 unzip snapshot.zip -d ~/zenith
 ```
 ##### Download config.toml and genesis.json file
-
+```bash
+wget https://raw.githubusercontent.com/p14041999/zenith-node-setup/master/config.toml?token=AHEAAS3L6BSLIJOZMPFRZ3LBQSXK6
+wget https://raw.githubusercontent.com/p14041999/zenith-node-setup/master/config.toml?token=AHEAAS3L6BSLIJOZMPFRZ3LBQSXK6
+```
 ##### Initialize the node and setup daemon
 
 ##### Start node

@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: geth-pod
+  annotations: { linkerd.io/inject: enabled }
+  namespace: geth
+spec:
+  containers:
+    - name: geth-container
+      image: yasiraslamekkelai/geth:geth1
+      ports:
+        - containerPort: 30303
+        - containerPort: 8545

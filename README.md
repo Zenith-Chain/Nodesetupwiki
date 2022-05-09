@@ -5,9 +5,10 @@ There are 2 ways to run a zenith mainnet node. You can either run it as a servic
 1. Ensure you have [docker](https://docs.docker.com/get-docker/) installed.
 2. Run the following commands:
 ```
-docker build -t geth:v1 .
-docker run -it geth:v1
+docker build -t <IMAGE_NAME> .
+docker run -it --network host <IMAGE_NAME>
 ```
+
 
 
 <h2>Method 2 (Service)</h2>

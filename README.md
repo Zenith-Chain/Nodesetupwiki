@@ -1,4 +1,4 @@
-There are 2 ways to run a zenith mainnet node. You can either run it as a service or as a docker client. Both these methods enable the HTTP RPC server on port 8545. 
+There are 2 ways to run a zenith mainnet node. You can either run it as a service or as a docker client. Both these methods enable the HTTP RPC server on port 8545 and the WS server on port 8546. 
 
 <h2>Method 1 (Docker Client)</h2>
 

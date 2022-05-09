@@ -3,7 +3,12 @@ There are 2 ways to run a zenith mainnet node. You can either run it as a servic
 <h2>Method 1 (Docker Client)</h2>
 
 1. Ensure you have [docker](https://docs.docker.com/get-docker/) installed.
-2. Run the following commands:
+2. Get External IP of your machine by:
+```
+wget -qO- https://ipecho.net/plain ; echo
+```
+3. Replace the Above command output with your public IP in Dockerfile Entrypoint at <EXT_IP>
+4. Run the following commands:
 ```
 docker build -t <IMAGE_NAME> .
 docker run -it --network host <IMAGE_NAME>

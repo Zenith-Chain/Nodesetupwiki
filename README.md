@@ -1,6 +1,6 @@
 There are 2 ways to run a zenith mainnet node. You can either run it as a service or as a docker client. Both these methods enable the HTTP RPC server on port 8545. 
 
-**Method 1 (Docker Client)**
+<h2>Method 1 (Docker Client)</h2>
 
 1. Ensure you have [docker](https://docs.docker.com/get-docker/) installed.
 2. Run the following commands:
@@ -8,9 +8,9 @@ There are 2 ways to run a zenith mainnet node. You can either run it as a servic
 docker build -t geth:v1 .
 docker run -it geth:v1
 ```
-<br>
 
-**Method 2 (Service)**
+
+<h2>Method 2 (Service)</h2>
 
 1. Install [geth](https://geth.ethereum.org/docs/install-and-build/installing-geth).
 

@@ -1,7 +1,6 @@
 [Eth]
 NetworkId = 79
 SyncMode = "snap"
-EthDiscoveryURLs = []
 SnapDiscoveryURLs = []
 NoPruning = false
 NoPrefetch = false

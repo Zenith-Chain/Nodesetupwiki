@@ -1,4 +1,4 @@
-FROM ethereum/client-go:latest
+FROM ethereum/client-go:v1.8.27
 ADD . /var/zenith
 WORKDIR /var/zenith
 RUN geth init /var/zenith/genesis.json --datadir /var/zenith/.zenith

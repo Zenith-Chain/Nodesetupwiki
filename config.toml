@@ -9,7 +9,6 @@ TxLookupLimit = 2350000
 LightPeers = 100
 UltraLightFraction = 75
 DatabaseCache = 512
-DatabaseFreezer = ""
 TrieCleanCache = 154
 TrieCleanCacheJournal = "triecache"
 TrieCleanCacheRejournal = 3600000000000
